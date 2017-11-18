@@ -38,7 +38,7 @@ async function UpdateBadge() {
 }
 
 // Get sure our badge background is red.
-browser.browserAction.setBadgeBackgroundColor({color: "#FF0000"});
+browser.browserAction.setBadgeBackgroundColor({color: "#D2691E"});
 
 // Register event listeners
 browser.browserAction.onClicked.addListener(ToolbarButtonClicked);
